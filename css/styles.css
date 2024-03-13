@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    color: #e74c3c;
+}
+p {
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+}
+.p {
+  font-size: clamp(1.875rem, 0.8393rem + 0.1786vw, 1rem);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.love-hidden {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.love-hidden img {
+    width: 300px;
+}
